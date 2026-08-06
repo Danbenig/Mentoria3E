@@ -2911,6 +2911,20 @@ blockquote {
     grid-row-gap: 2.9rem;
   }
 
+  .rt-color-text-inverse.rt-gap-bottom-xxs {
+    padding-bottom: 1rem;
+  }
+
+  .rt-color-text-inverse.rt-gap-bottom-md {
+    margin-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .rt-short-heading.rt-color-text-inverse {
+    text-align: left;
+    align-self: auto;
+  }
+
   .rt-button {
     padding-left: .5rem;
     padding-right: .5rem;
@@ -2984,6 +2998,11 @@ blockquote {
     padding-bottom: 1.875rem;
   }
 
+  .rt-service-main {
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+  }
+
   .rt-service-bottom-main {
     grid-template-columns: 1fr;
     display: none;
@@ -3008,8 +3027,25 @@ blockquote {
     align-items: center;
   }
 
-  .rt-vertical-border.rt-border-active, .rt-case-studies-wrapper {
+  .rt-vertical-border.rt-border-active {
     display: none;
+  }
+
+  .rt-case-studies {
+    border-top: 1px solid #000;
+  }
+
+  .rt-case-studies-wrapper {
+    display: none;
+  }
+
+  .rt-business {
+    padding-bottom: var(--_sizes---gap--xl-gap);
+  }
+
+  .rt-business-main {
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
   }
 
   .rt-navbar-main {
